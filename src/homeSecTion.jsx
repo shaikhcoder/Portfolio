@@ -46,7 +46,7 @@ return <>  <section>
 
             </div>
             <div className="show_content_perent" onClick={TextAread}>
-                <img className="show_content" src="/images/arrow.png" alt="" />
+                <img className="show_content" src="./images/arrow.png" alt="" />
             </div>
 
 
