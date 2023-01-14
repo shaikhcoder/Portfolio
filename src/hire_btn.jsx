@@ -1,5 +1,7 @@
 import React from "react";
-
+import {
+  Link
+} from "react-router-dom";
 function HireBtn(){
 
 
@@ -7,7 +9,7 @@ return <>
 
 <main className="btn_main">
 <section className="btn_sec">
-<a href="/Portfolio/Contact" className="cube">
+<Link to="/Portfolio/Contact" className="cube">
 <div className="active-state">
 <h2>
 ThankYou
@@ -20,7 +22,7 @@ ThankYou
 Hire Me
 </h1>
 </div>
-</a>
+</Link>
 
 </section>
 </main>
