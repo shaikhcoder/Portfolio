@@ -1,0 +1,26 @@
+
+body{
+background-color: #00AA72 ;
+}
+
+.page_not{
+
+display: flex;
+justify-content: center;
+
+height: 97lvh;
+align-items: center;
+}
+
+.text_page_not{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  align-items: center;
+  font-size: 7vw;
+color: #5cc88b;
+border: 1px solid #5cc88b;
+filter: drop-shadow(14px 1px 4px black);
+}
+
+
+

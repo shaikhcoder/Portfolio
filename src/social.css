@@ -1,0 +1,28 @@
+.img_logos{
+width: 80px;
+opacity: 0.7;
+transition:all 0.5s ease-in-out ;
+}
+
+.social_div{
+
+display: grid;
+justify-content: center;
+}
+.img_link{
+margin-bottom: 23px;
+
+}
+
+.img_logos:hover{
+transform: scale(1.5);
+opacity: 1;
+z-index: 0;
+filter: contrast(2);
+}
+.social_prent{
+
+
+  margin-top: 92px;
+
+}

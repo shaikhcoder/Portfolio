@@ -1,0 +1,64 @@
+*{
+margin: 0;
+padding: 0;
+}
+.group_card{
+margin-top: 6rem;
+display: grid;
+justify-content: space-evenly;
+grid-template-columns: auto auto auto;
+}
+.card{
+width: 20rem;
+height: 20rem;
+border-radius: 10px;
+filter: drop-shadow(3px 5px 2px black);
+
+background-color:  #14dc624f;;
+margin-bottom: 20px;
+overflow: hidden;
+
+}
+
+.card_img{
+width: 20rem;
+height: 10rem;
+}
+.card_Text{ 
+  text-align: center;
+}
+.card_tittle{
+
+font-size: 22px;
+}
+.card_sec_title{
+font-size: 15px;
+}
+.card_content{
+font-size: 13px;
+}
+
+
+
+.card_sec_title{
+text-align: justify;
+margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+.group_card{
+
+
+grid-template-columns: auto auto;
+}
+ 
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+ .group_card{
+
+
+grid-template-columns: auto;
+}
+}
