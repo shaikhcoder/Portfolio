@@ -7,7 +7,7 @@ return <>
 
 <main className="btn_main">
 <section className="btn_sec">
-<a href="/" className="cube">
+<a href="/Portfolio/Contact" className="cube">
 <div className="active-state">
 <h2>
 ThankYou
