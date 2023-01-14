@@ -25,13 +25,13 @@ function App() {
       path: "/Portfolio/Contact",
       element: <><SimHeader />   </>
     }, {
-      path: "./pdf/resume.pdf"
+      path: "./resume.pdf"
     }, {
       path: "/Portfolio/Projects",
       element: <> <Projects  />  </>
     },{
 path:"*",
-element:<PageNot/>
+element:<PageNot />
 }
 
   ])
