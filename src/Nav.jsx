@@ -12,14 +12,14 @@ return <><button className="btn_nav"  onClick={props.Show_nav}><img className="b
 
 <ul className="ul_head">
 
-<li className="link_side"><Link to="Portfolio/"  className="link_head active_link">Profile</Link></li>
+<li className="link_side"><Link to="/"  className="link_head active_link">Profile</Link></li>
 {/* <a href="./images/Ahtisham (4).pdf" className="link_head" download>Download Resume</a> */}
 <li><Link to="./pdf/resume.pdf" target="_blank" className="link_head" download>Download Resume</Link></li>
 </ul>
 <ul className="ul_head">
-<li><Link to="Portfolio/Projects" className="link_head">Projects</Link></li>
+<li><Link to="/Projects" className="link_head">Projects</Link></li>
  
-<li><Link to="Portfolio/Contact" className="link_head">Contact</Link></li>
+<li><Link to="/Contact" className="link_head">Contact</Link></li>
 </ul>
 </nav></>
 }
