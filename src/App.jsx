@@ -17,17 +17,17 @@ function App() {
 
   return createBrowserRouter([
     {
-      path: "/",
+      path: "/Portfolio/",
       element: <><Header dataOther={Section} />  <HireBtn />  <Footer /></>
 
     },
     {
-      path: "/Contact",
+      path: "/Portfolio/Contact",
       element: <><SimHeader />   </>
     }, {
       path: "./pdf/resume.pdf"
     }, {
-      path: "/Projects",
+      path: "/Portfolio/Projects",
       element: <> <Projects  />  </>
     },{
 path:"*",
