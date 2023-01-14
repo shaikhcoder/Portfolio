@@ -1,6 +1,6 @@
 {
-  "name": "profoliod",
-  "homepage": "https://shaikhcoder.github.io/Portfolio",
+  "name": "profolio",
+  "homepage": "https://shaikhcoder.github.io/Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

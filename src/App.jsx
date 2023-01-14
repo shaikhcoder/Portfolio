@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Route,Routes,redirect
+  Route,Routes
 } from "react-router-dom";
 import Header from "./Header";
 import Section from "./homeSecTion";
@@ -14,12 +14,11 @@ function App() {
   
 
   return <Routes>
-<Route path="Portfolio/" element={<><Header dataOther={Section} />  <HireBtn />  <Footer /></>} />
+<Route path="Portfolio/"  element={<><Header dataOther={Section} />  <HireBtn />  <Footer /></>} />
 <Route path="Portfolio/Contact" element={<><SimHeader />   </>}/>
-<Route path="./pdf/resume.pdf"/>
+<Route path=".Portfolio/pdf/resume.pdf"/>
 <Route path= "Portfolio/Projects" element={<> <Projects  />  </>} />
-<Route path="*" element={redirect("/")}/>
-
+<Route path="*" element={<PageNot />}/>
 
 
 
