@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  Route,Routes
+  createBrowserRouter
 } from "react-router-dom";
 import Header from "./Header";
 import Section from "./homeSecTion";
@@ -9,21 +9,32 @@ import Footer from "./Footer";
 import SimHeader from "./simpleHeader";
 import Projects from "./project";
 import PageNot from "./errorPage";
-
+import "./style.css"
+import "./card.css"
+import "./btn_hire.css"
 function App() {
   
 
-  return <Routes>
-<Route path="/"  element={<><Header dataOther={Section} />  <HireBtn />  <Footer /></>} />
-<Route path="/Contact" element={<><SimHeader />   </>}/>
-<Route path="./pdf/resume.pdf"/>
-<Route path= "/Projects" element={<> <Projects  />  </>} />
-{/* <Route path="*" element={<PageNot />}/> */}
+  return createBrowserRouter([
+    {
+      path: "/",
+      element: <><Header dataOther={Section} />  <HireBtn />  <Footer /></>
 
+    },
+    {
+      path: "/Contact",
+      element: <><SimHeader />   </>
+    }, {
+      path: "./pdf/resume.pdf"
+    }, {
+      path: "/Projects",
+      element: <> <Projects  />  </>
+    },{
+path:"*",
+element:<PageNot/>
+}
 
-
-</Routes>
-
+  ])
 }
 
 export default App
