@@ -1,7 +1,5 @@
 import React from "react";
-import {
-  Link
-} from "react-router-dom";
+
 function HireBtn(){
 
 
@@ -9,7 +7,7 @@ return <>
 
 <main className="btn_main">
 <section className="btn_sec">
-<Link to="/Portfolio/Contact" className="cube">
+<a href="https://www.linkedin.com/in/ahtisham-shaikh-61108925a"  rel="noreferrer" target="_blank" className="cube">
 <div className="active-state">
 <h2>
 ThankYou
@@ -22,7 +20,7 @@ ThankYou
 Hire Me
 </h1>
 </div>
-</Link>
+</a>
 
 </section>
 </main>
