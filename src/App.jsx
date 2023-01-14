@@ -25,7 +25,7 @@ function App() {
       path: "/Portfolio/Contact",
       element: <><SimHeader />   </>
     }, {
-      path: "./resume.pdf"
+      path: "./images/resume.pdf"
     }, {
       path: "/Portfolio/Projects",
       element: <> <Projects  />  </>
