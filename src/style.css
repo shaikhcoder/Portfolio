@@ -256,6 +256,24 @@ display: none;
 
 .nav_head1{
 display: block;
+animation: change .5s cubic-bezier(.77,0,.18,1) 1 alternate;
+
+}
+
+
+@keyframes change {
+0%{
+visibility:visible;
+    transform: rotate3d(1, 1, 1, 240deg);
+display: block;
+}
+100%{
+
+    transform: rotate3d(1, 1, 1, 360deg);
+visibility: visible;
+}
+
+  
 }
 }
 

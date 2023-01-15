@@ -9,7 +9,7 @@ function Nav(props){
 
 
 
-return <><button className="btn_nav"  onClick={props.Show_nav}><img className="button_img" src="./images/bars.png" alt="" /> </button>
+return <><button className="btn_nav"  onClick={props.Show_nav}><img className="button_img" src="./images/bars.png" alt="btn" /> </button>
 <nav className={"nav_head " + props.changeClass}>
 
 <ul className="ul_head">
