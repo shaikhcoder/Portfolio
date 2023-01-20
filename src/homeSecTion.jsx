@@ -2,7 +2,7 @@ import React ,{useState} from "react";
 
 function Section(){
 const [un_hide_text , hide_text_un] = useState(true)
- const addText = " And Also Love to Do Projects of People Becouse Make People A Happy Is Best Gift of Nature”"
+ const addText = " And Also Love to Do Projects of People Becouse Make People Happy Is Best Gift of Nature”"
     const [addMore, setmore] = useState("...")
 
 
