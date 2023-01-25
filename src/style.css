@@ -48,8 +48,8 @@ transition: all .5s ease-in-out;
 color: white;
 }
 .link_head:hover{
-color: #67ff8d;
-text-shadow: 3px 1px 0px black;
+color: #fdfdfd;
+text-shadow: 8px 4px 10px #000000e6;
 }
 .btn_head {
 	box-shadow: inset 0px 1px 0px 0px #f5978e;
