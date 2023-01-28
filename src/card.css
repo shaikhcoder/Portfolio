@@ -10,7 +10,7 @@ grid-template-columns: auto auto auto;
 }
 .card{
 width: 20rem;
-height: 22rem;
+height: 23rem;
 border-radius: 10px;
 filter: drop-shadow(3px 5px 2px black);
 
@@ -33,9 +33,11 @@ font-size: 22px;
 }
 .card_sec_title{
 font-size: 15px;
+padding-left: 14px;
 }
 .card_content{
 font-size: 13px;
+padding: 0px 10px;
 }
 
 
