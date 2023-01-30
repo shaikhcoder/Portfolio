@@ -19,7 +19,7 @@ return <><button className="btn_nav"  onClick={props.Show_nav}><img className="b
 
 <li className="link_side"><Link to="/Portfolio/" onClick={()=>dispatch(profile())} className={state.profile ? "link_head active_link" : "link_head"}>Profile</Link></li>
 
-<li><Link to="./images/resume.pdf" target="_blank" className="link_head" download>Download Resume</Link></li>
+<li><Link to="./images/resume.pdf" target="_blank" className="link_head download_link" download>Download Resume</Link></li>
 </ul>
 <ul className="ul_head">
 <li><Link to="/Portfolio/Projects" onClick={()=>dispatch(project())} className={state.project ? "link_head active_link" : "link_head"}>Projects</Link></li>

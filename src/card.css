@@ -2,6 +2,10 @@
 margin: 0;
 padding: 0;
 }
+
+.download_link{
+display: block ruby;
+}
 .group_card{
 margin-top: 6rem;
 display: grid;
@@ -34,18 +38,18 @@ font-size: 22px;
 .card_sec_title{
 font-size: 15px;
 padding-left: 14px;
+margin-top: 10px;
+text-align: justify;
+margin-bottom: 10px;
 }
 .card_content{
 font-size: 13px;
 padding: 0px 10px;
+
 }
 
 
 
-.card_sec_title{
-text-align: justify;
-margin-bottom: 10px;
-}
 
 @media screen and (max-width: 1100px) {
 .group_card{

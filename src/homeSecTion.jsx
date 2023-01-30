@@ -36,12 +36,12 @@ return <>  <section>
                 </h1>
 
             </div>
-            <div className="main_div_Title title_pro"><p>web developer</p></div>
+            <div className="main_div_Title title_pro"><p>Web-dev.</p></div>
 
 
             <div className="main_div_Title">
                 <p id="Text_p">
-                    “Web developer with a passion for creating user-friendly and efficient websites Skilled in <strong> Javascript Python Node.js React.js Express.js MongoDB GitHUB</strong>{addMore}
+                    “Web-dev with a passion for creating user-friendly and efficient websites Skilled in <strong> Javascript Python Node.js React.js Express.js MongoDB GitHUB</strong>{addMore}
                 </p>
 
             </div>
