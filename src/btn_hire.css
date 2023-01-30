@@ -40,12 +40,12 @@ width: 100%;
 }
 
 .Defualt-state{
-background-color:  #00AA72;
+ background: -webkit-linear-gradient(-70deg, #AA0040 0%, #d42a32 100%);
 transform: perspective(1000px) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 
 .active-state{
-background-color:  #006b47;
+ background: -webkit-linear-gradient(-70deg, #AA0040 0%, #d42a32 100%);
 transform: perspective(1000px) rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
 }
 
