@@ -22,7 +22,7 @@ function Show_nav() {
     }
 
 return <>
-<header className={"super_head " + super_head}> <Nav changeClass={changeClass} Show_nav={Show_nav} /> {props.dataOther()} </header>
+<header className={super_head!==""? super_head : "super_head"}> <Nav changeClass={changeClass} Show_nav={Show_nav} /> {props.dataOther()} </header>
 
 
 

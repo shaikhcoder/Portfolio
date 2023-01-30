@@ -19,7 +19,7 @@ background: #AA0040;;  /* fallback for old browsers */
 
 height: 76lvh;
 width: 100lvw;
-
+transition: all .5s ease-in-out;
 
 }
 .link_side{
@@ -219,6 +219,7 @@ filter: none;
 .super_head1{
 height: 39rem;
 margin-bottom: 46px;
+transition: all .5s ease-in-out;
 }
 .title_pro{
 margin: 0;
@@ -312,11 +313,11 @@ font-size: 4.5rem;
 .footer_div {
   position: unset;}
 	.super_head1{
-height: 83lvh;
+height: 76lvh;
 
 }
 	.super_head{
-height: 83lvh;
+height: 72lvh;
 
 }
 .Main_Name {
