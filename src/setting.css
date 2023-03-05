@@ -1,0 +1,8 @@
+.Setting_BTN{
+margin-top:-9px;
+opacity: 0.6;
+  transition: all 0.5s ease-in-out;
+}
+.Setting_BTN:hover {
+  opacity: initial;
+}

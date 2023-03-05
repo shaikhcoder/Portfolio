@@ -6,7 +6,7 @@ function Card(props) {
     return <>
         <div className="card">
             <div>
-                <img className="card_img" src={props.src} alt="pic" />
+                <img className="card_img" onClick={()=>{document.querySelector("card_Text").color="blue"}} src={props.src} alt="pic" />
             </div>
             <div className="card_Text">
                 <h2 className="card_tittle">
