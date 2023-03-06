@@ -10,7 +10,7 @@
   z-index: 3;
 }
 .setting {
-  height: 200px;
+  height: 220px;
   width: 400px;
   background-color: rgba(255, 255, 255, 0.438);
   border: 4px solid #607d8b;
@@ -27,10 +27,11 @@
   margin-bottom: 3px;
 }
 .Exit_X {
-  position: absolute;
-  right: 3%;
-  top: 5%;
-  cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    padding-top: 8px;
+    padding-right: 10px;
 }
 .Exit_X img {
   width: 23px;

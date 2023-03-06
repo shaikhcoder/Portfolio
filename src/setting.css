@@ -6,3 +6,13 @@ opacity: 0.6;
 .Setting_BTN:hover {
   opacity: initial;
 }
+.spanBtn{display: inline-flex;
+    width: 33vw;
+    justify-content: right;}
+
+@media (max-width: 992px) {
+
+.spanBtn{display: inline-flex;
+    width: 90vw;
+    justify-content: right;}
+}

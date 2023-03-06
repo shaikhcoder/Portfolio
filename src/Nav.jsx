@@ -4,7 +4,6 @@ import {
 } from "react-router-dom";
 import {profile,contact,project} from "./action/index.js" 
 import { useSelector , useDispatch } from "react-redux";
-import Setting from "./setting.jsx";
 import Settingpop from "./settings_pop.jsx";
 
 
@@ -16,7 +15,6 @@ const [textColor,setText] = useState("#ffffff")
 function apply_func(){
 document.querySelector("body").style.background = backColor
 document.querySelector("body").style.color = textColor
-// document.querySelector("body").style.borderColor
 document.querySelector(".Defualt-state").style.background = `-webkit-linear-gradient(-70deg, ${backColor} 0%, ${textColor} 100%)`;
 document.querySelector(".Defualt-state").style.textShadow = "2px 2px 1px black"
 document.querySelector(".active-state").style.background = `-webkit-linear-gradient(-70deg, ${backColor} 0%, ${textColor} 100%)`;
@@ -29,6 +27,7 @@ setBtn(check_btn?false:true)
 
 function backInput(key){
 setBack(key.target.value)
+document.querySelector(".setting").style.background = backColor
 document.querySelector(".setting").style.borderColor = backColor
 
 }
@@ -58,10 +57,12 @@ return <><button className="btn_nav"  onClick={props.Show_nav}><img className="b
  
 <li className="link_side"><Link to="/Portfolio/Contact" onClick={()=>dispatch(contact())} className={state.contact ? "link_head active_link" : "link_head"}>Contact</Link></li>
 
-<li className="link_side">
-<Setting open={open} />
-</li>
 
+<li className="link_side">
+<span onClick={ open} className={check_btn ? "Setting_BTN link_head active_link" : "Setting_BTN link_head"}>
+Settings
+</span>
+</li>
 </ul>
 
 
